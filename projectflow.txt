@@ -11,6 +11,9 @@ Now it will ask to do: ("git rmr-cached 'data'" and "git commit -m "stop trackin
  Again we do "dys add data/" (creates data.dvs) then "git add .gitignore data.dvc"
 Now "dvc commit" and then "dys push"
 Do a git add-commit-push to mark this stage as first version of data.
+Now make changes to code.py to append a new row in data, check changes via "dvc status"
+Again "dvc commit" and then "dvc push"
+
 
 
 
